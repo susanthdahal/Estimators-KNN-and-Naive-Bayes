@@ -34,7 +34,7 @@ function kernel()
     figure('Name',name,'NumberTitle','off');
     bar(width,e);
 end
-
+    
 function [result]=histo(train_data,test_data,width,flag)
     intervals=1/width;
     bin=zeros(intervals,1);
